@@ -1,2 +1,146 @@
 .swipers {
+  position: relative;
+}
+.swipers .searchBar {
+  position: absolute;
+  display: flex;
+  top: 20px;
+  width: 100%;
+  padding: 0 10px;
+}
+.swipers .searchBar .search {
+  display: inherit;
+  flex: 1;
+  margin: 0 10px 0 0;
+  padding: 5px 5px 5px 8px;
+  border-radius: 3px;
+  height: 34px;
+  line-height: 24px;
+  background-color: #fff;
+}
+.swipers .searchBar .search :global .icon-arrow {
+  margin-left: 2px;
+  font-size: 12px;
+  color: #7f7f80;
+}
+.swipers .searchBar .search .form {
+  border-left: solid 1px #e5e5e5;
+  margin-left: 12px;
+}
+.swipers .searchBar .search .form :global .icon-seach {
+  vertical-align: middle;
+  padding: 0 2px 0 12px;
+  color: #9c9fa1;
+  font-size: 15px;
+}
+.swipers .searchBar .search .form span {
+  padding-left: 4px;
+  font-size: 13px;
+  color: #9c9fa1;
+}
+.swipers .searchBar :global .icon-map {
+  line-height: 34px;
+  font-size: 25px;
+  color: #fff;
+}
+.nav {
+  padding: 10px 0;
+}
+.nav .navImg {
+  width: 48px;
+}
+.nav .navGrid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav h2 {
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: normal;
+}
+.groups {
+  background-color: #f6f5f6;
+  overflow: hidden;
+  padding: 0 10px;
+}
+.groups .groupsTitle {
+  position: relative;
+  margin: 15px 0px 15px 10px;
+  font-size: 15px;
+}
+.groups .groupsTitle .more {
+  color: #787d82;
+  position: absolute;
+  right: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.groups .desc {
+  float: left;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+.groups .desc .title {
+  font-size: 13px;
+  font-weight: 700;
+}
+.groups .desc .info {
+  font-size: 12px;
+  color: #999;
+}
+.groups .groupsImg {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 55px;
+}
+.groups :global .adm-grid {
+  padding-bottom: 10px;
+}
+.groups :global .adm-grid .adm-grid-item {
+  position: relative;
+  height: 75px;
+  background-color: #fff;
+}
+.news {
+  padding-top: 10px;
+}
+.news .newsTitle {
+  margin: 10px 0 5px 20px;
+  font-size: 15px;
+}
+.news .newsImg {
+  float: left;
+  height: 90px;
+}
+.news .desc {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  padding-left: 12px;
+}
+.news .desc .title {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.news .desc .media,
+.news .desc .date {
+  position: absolute;
+  bottom: 0px;
+  font-size: 12px;
+  color: #9c9fa1;
+}
+.news .desc .date {
+  right: 15px;
+}
+.news :global .adm-grid-item {
+  overflow: hidden;
+  margin: 0 15px 0 15px;
+  padding: 15px 0 15px 0;
+  border-bottom: 1px solid #ccc;
+}
+.news :global .adm-grid-item:last-child {
+  border: none;
 }
