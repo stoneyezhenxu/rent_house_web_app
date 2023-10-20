@@ -1,0 +1,40 @@
+.root {
+  position: absolute;
+  left: 20%;
+  height: 100vh;
+  background-color: #fff;
+}
+.root .dl .dt {
+  font-size: 16px;
+  margin: 20px 20px;
+}
+.root .dl .dd {
+  margin: 0 20px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+.root .dl .dd:last-child {
+  border-bottom: none;
+}
+.root .dl .dd .tag {
+  display: inline-block;
+  margin: 0 0 10px 10px;
+  width: 75px;
+  height: 35px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  font-size: 12px;
+  color: #999;
+  line-height: 35px;
+  text-align: center;
+}
+.root .dl .dd .tagActive {
+  background-color: #def8ed;
+  border: 1px solid #21b97a;
+  color: #21b97a;
+}
+.root .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

@@ -1,18 +1,13 @@
+import ReactDOM from 'react-dom';
 
-import ReactDOM from 'react-dom'
-import Routers from './Routers'
-import App from './App'
+import Routers from './Routers';
 
-import './index.css'
+import './index.css';
 import './assets/fonts/iconfont.css'
 
 
-
+// 因react-virtualized不支持react的StrictMode，所以取消使用StrictMode
 ReactDOM.render(
   <Routers />,
-  // <App />,
   document.getElementById('root')
 );
-
-
-

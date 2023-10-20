@@ -1,0 +1,48 @@
+.root{
+    position: absolute;
+    left: 20%;
+    height: 100vh;
+    background-color: #fff;
+
+    .dl{
+        .dt{
+            font-size: 16px;
+            margin: 20px 20px;
+        }
+    
+        .dd{
+            margin: 0 20px;
+            padding: 10px 0;
+            border-bottom: 1px solid #e6e6e6;
+
+            &:last-child {
+                border-bottom: none;
+            }
+
+            .tag {
+                display: inline-block;
+                margin: 0 0 10px 10px;
+                width: 75px;
+                height: 35px;
+                border: 1px solid #e6e6e6;
+                border-radius: 3px;
+                font-size: 12px;
+                color: #999;
+                line-height: 35px;
+                text-align: center;
+            }
+
+            .tagActive {
+                background-color: #def8ed;
+                border: 1px solid #21b97a;
+                color:#21b97a;
+            }
+        }
+    }
+    
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}

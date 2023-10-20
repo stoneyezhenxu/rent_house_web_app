@@ -1,0 +1,310 @@
+.root {
+    position: relative;
+    padding-bottom: 48px;
+    background-color: #f6f5f6;
+
+    .navHeader {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.25);
+        color: #fff;
+        z-index: 1;
+
+        :global .icon-share {
+            font-size: 18px;
+        }
+    }
+
+    :global .adm-swiper{
+        height: 250px;
+        background-color: #fff;
+    }
+
+    .info {
+        margin-top: 10px;
+        padding: 15px 15px 5px;
+        background-color: white;
+
+        .infoTitle {
+            font-weight: normal;
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .tag {
+            display: inline-block;
+            font-size: 12px;
+            border-radius: 3px;
+            padding: 4px 5px;
+            margin-right: 5px;
+            line-height: 12px;
+        }
+        
+        .tags {
+            position: relative;
+            margin: 10px 0;
+        }
+        
+        .tag1 {
+            color: #39becd;
+            background: #e1f5f8;
+        }
+        
+        .tag2 {
+          color: #3fc28c;
+          background: #e1f5ed;
+        }
+        
+        .tag3 {
+          color: #5aabfd;
+          background: #e6f2ff;
+        }
+        
+        .tag4 {
+          color: #3ad1f7;
+          background: #e6fcff;
+        }
+        
+        .tag5 {
+          color: #39becd;
+          background: #e1f5f8;
+        }
+
+        .infoPrice {
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+
+            .infoPriceItem {
+                margin: 16px 0;
+                text-align: center;
+                color: #999;
+
+                .month {
+                    font-size: 12px;
+                    font-weight: normal;
+                }
+
+                :global div {
+                    height: 24px;
+                    line-height: 24px;
+                }
+                
+                :global div:first-child {
+                    color: #fa5741;
+                    font-size: 18px;
+                    font-weight: bolder;
+                }
+            }
+        }
+
+        .infoBasic {
+            display: flex;
+            justify-content:flex-start;
+            margin: 15px 0;
+            font-size: 15px;
+            line-height: 32px;
+            :global .adm-grid-item {
+                flex: 1;
+            }
+            .title {
+                font-size: 16px;
+                color: #999;
+            }
+        }
+    }
+    
+    // 地图容器
+    .map {
+        margin: 10px 0;
+        background-color: #fff;
+    
+        .mapTitle {
+            padding: 10px;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 20px;
+        }
+    
+        .mapContainer {
+            height: 250px;
+            z-index: 0;
+    
+            .rect {
+                position: absolute;
+                padding: 0 3px;
+                height: 30px;
+                background-color: #fa5741;
+                line-height: 28px;
+                white-space: nowrap;
+                cursor: pointer;
+    
+                .housename {
+                    overflow: hidden;
+                    display: inline-block;
+                    padding: 0 5px;
+                    width:100%;
+                    font-size: 12px;
+                    vertical-align: middle;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+        
+                .arrow {
+                    display: block;
+                    width: 0;
+                    height: 0;
+                    margin: 0 10px;
+                    border: 4px solid transparent;
+                    border-top-width: 5px;
+                    border-top-color: #fa5741;
+                }
+            }
+        }
+    }
+
+    .set {
+        background-color: #fff;
+        padding: 0 10px;
+
+        .houseTitle {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 20px;
+        }
+    
+        .titleEmpty {
+            padding: 10px 0;
+            text-align: center;
+            font-size: 12px;
+            line-height: 14px;
+            color: #999;
+        }
+    }
+    
+    .about {
+        background-color: #fff;
+        margin: 10px 0;
+        padding: 0 10px 10px;
+    
+        .houseTitle {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 20px;
+        }
+    
+        .contact {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            padding-top: 10px;
+    
+            .user {
+                display: flex;
+                margin-bottom: 10px;
+    
+                .userInfo {
+                padding-left: 10px;
+                line-height: 25px;
+
+                    .userAuth {
+                        color: #fa5741;
+                    }
+                }            
+    
+                :global img {
+                    height: 50px;
+                }
+            }
+    
+            .userMsg {
+                align-self: center;
+                position: absolute;
+                right: 15px;
+                height: 36px;
+                width:72px;
+                border: 1px solid #21b97a;
+                border-radius: 4px;
+                font-size: 15px;
+                line-height: 36px;
+                text-align: center;
+                color: #21b97a;
+            }
+        }
+    
+        .descText {
+            line-height: 1.75;
+        }
+    }
+
+    .like {
+        background-color: #fff;
+        margin: 10px 0;
+        padding: 0 10px 10px;
+
+        .likeTitle {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 20px;
+        }
+
+        .house {
+            border-bottom: 1px solid #eee;
+
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 48px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    line-height: 48px;
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+    z-index: 2;
+
+    .favorite {
+        flex: 1;
+        border-right: 1px solid #eee;
+        cursor: pointer;
+
+        img {
+            margin-right: 5px;
+            width: 16px;
+            vertical-align:baseline;
+        }
+    }
+
+    .consult {
+        flex: 1;
+        cursor: pointer;
+    }
+
+    .reserve {
+        flex: 1;
+        background: #21b97a;
+        cursor: pointer;
+
+        a {
+        color: #fff;
+        }
+    }
+
+}
+

@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# 好客租房项目
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 项目介绍
 
-## Available Scripts
+本项目是基于`react`开发的移动端在线项目，项目素材和功能来源于黑马程序员相关教程：
 
-In the project directory, you can run:
+[黑马程序员前端 React 视频教程，react 零基础入门原理详解到好客租房项目实战](https://www.bilibili.com/video/BV1gh411U7JD?spm_id_from=333.999.0.0)
 
-### `npm start`
+[好客租房 - 移动 Web 端（React 项目）](https://www.bilibili.com/video/BV1SK4y1U7f1?p=270&spm_id_from=333.880.my_history.page.click)。
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+本项目对视频中演示的代码，基于最新的 `react 17`、`react-router v6`、`antd-mobile v5` 等框架和组件，采用 React Hook 进行重新编写，并对其中部分功能进行优化和 bug 的修正（因部分组件还未支持 `react 18`，故暂未支持）。
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+相关后端代码可在上面教程评论区寻找。
 
-### `npm test`
+部分样式代码参考了[@jerry306](https://gitee.com/jerry306)的代码。
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 技术栈
 
-### `npm run build`
+`react`  
+`react-router`  
+`react-spring`  
+`react-virtualized`  
+`create-react-app`  
+`antd-mobile`  
+`axios`  
+`formik+Yup`  
+`lodash`  
+`prop-types`  
+`百度地图API`  
+`LESS`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 截图
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![首页](capture/1.png)
+![找房](capture/2.png)
+![咨询](capture/3.png)
+![我的](capture/4.png)
+![城市列表](capture/5.png)
+![地图找房](capture/6.png)
+![地图房源列表](capture/7.png)
+![房源详情1](capture/8.png)
+![房源详情2](capture/9.png)
+![无收藏](capture/10.png)
+![有收藏](capture/11.png)
+![无出租](capture/12.png)
+![搜索小区](capture/13.png)
+![添加出租](capture/14.png)
+![有出租](capture/15.png)
+![添加房源详情1](capture/16.png)
+![添加房源详情2](capture/17.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 其他
 
-### `npm run eject`
+本项目仅用于 `react` 的开发学习，素材和部分原有代码所有权归教程发布者，许可证遵循教程发布者意愿。
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+本人也是初学前端，代码如有问题，可直接提交 issue 或者发邮件至[Phil.Pu@foxmail.com](Phil.Pu@foxmail.com)。

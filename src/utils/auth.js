@@ -1,18 +1,17 @@
 const TOKEN_NAME = 'hkzf_token'
 
-// get token
+// 获取token
 const getToken = () => localStorage.getItem(TOKEN_NAME)
 
-//set token
+//设置token
 const setToken = (value) => localStorage.setItem(TOKEN_NAME, value)
 
-// remove token
+// 删除token
 const removeToken = () => localStorage.removeItem(TOKEN_NAME)
 
-// true: if login ; otherwise false
+// 是否登录（有权限）
 const isAuth = () => !!getToken()
-
-//In Javascript, ! represents the operator "not". If the variable is not of Boolean type, the variable will be automatically converted to Boolean type.
-//Take negation again, then use two!! to convert the variable into the corresponding Boolean value
+//Javascript中，!表示运算符“非”，如果变量不是布尔类型，会将变量自动转化为布尔类型，
+//再取非，那么用两个!!就可以将变量转化为对应布尔值
 
 export { getToken, setToken, removeToken, isAuth }

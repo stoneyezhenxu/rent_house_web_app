@@ -1,1 +1,1 @@
-export const SITE_URL = process.env.REACT_APP_SITE
+export const BASE_URL = process.env.REACT_APP_URL;

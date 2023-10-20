@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { axiosAPI as axios } from './axios'
 
 const TOKEN_NAME = 'hkzf_city'
-const a = undefined
+
 const getCurrentCity = () => {
     // 获取本地储存中的城市
     const localCity = JSON.parse(localStorage.getItem(TOKEN_NAME))
@@ -10,14 +10,10 @@ const getCurrentCity = () => {
     if (!localCity) {
         return new Promise((resolve, reject) => {
             // 本地储存中不存在城市信息时通过定位获取
-
-            // 设置百度地图全局常量
             const currentCity = new window.BMapGL.LocalCity()
 
             currentCity.get(async (res) => {
                 try {
-
-                    //res.name = undefined => api default response: "body": {"label": "上海","value": "AREA|dbf46d32-7e76-1196"
                     const result = await axios.get(`/area/info?name=${res.name}`)
 
                     localStorage.setItem('hkzf_city', JSON.stringify(result.data.body))

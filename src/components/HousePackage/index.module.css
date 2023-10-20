@@ -1,0 +1,28 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 64px;
+  width: 20%;
+  font-size: 13px;
+  color: #999;
+  border-radius: 6px;
+}
+.icon {
+  font-size: 32px;
+}
+.active {
+  color: #21b97a;
+}

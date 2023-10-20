@@ -1,22 +1,18 @@
+.homepage {
+  padding-bottom: 50px;
+}
 :global .adm-tab-bar {
   position: fixed;
   height: 50px;
   width: 100vw;
   bottom: 0;
   left: 0;
-  right: 0;
   border-top: 1px solid #ddd;
   background-color: #fff;
 }
-
-.homepage {
-  padding-bottom: 50px;
-}
-
 :global .adm-tab-bar .adm-tab-bar-item-active {
   color: #21b97a;
 }
-
 :global .adm-tab-bar .adm-tab-bar-item-active .iconfont {
   font-size: 20px;
 }

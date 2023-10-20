@@ -1,0 +1,50 @@
+:global .adm-nav-bar {
+  background-color: #f6f5f6;
+  height: 45px;
+}
+.cityList {
+  height: calc(100vh - 45px);
+}
+.cityList .navHeader {
+  background-color: #f5f6f5;
+}
+.cityList .city .title {
+  font-size: 14px;
+  padding: 10px 15px;
+  color: #999;
+}
+.cityList .city .name {
+  width: 100%;
+  height: 50px;
+  padding: 0 15px;
+  line-height: 50px;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 16px;
+  color: #333;
+  background: #fff;
+  cursor: pointer;
+}
+.cityList .cityIndex {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 5px;
+  z-index: 1;
+  height: 90%;
+  box-sizing: border-box;
+  padding-top: 20px;
+  text-align: center;
+}
+.cityList .cityIndex .cityIndexItem {
+  flex: 1;
+}
+.cityList .cityIndex .indexActive {
+  color: #fff;
+  background-color: #21b97a;
+  border-radius: 100%;
+  display: inline-block;
+  font-size: 12px;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+}

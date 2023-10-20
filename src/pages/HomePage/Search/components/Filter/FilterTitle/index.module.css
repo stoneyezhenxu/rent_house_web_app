@@ -1,0 +1,12 @@
+.root {
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 0;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 1px solid #f6f5f6;
+}
+.root .selected {
+  color: #21b97a;
+}
