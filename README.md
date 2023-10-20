@@ -1,56 +1,148 @@
-# 好客租房项目
+# Rent House Web App
 
-## 项目介绍
 
-本项目是基于`react`开发的移动端在线项目，项目素材和功能来源于黑马程序员相关教程：
 
-[黑马程序员前端 React 视频教程，react 零基础入门原理详解到好客租房项目实战](https://www.bilibili.com/video/BV1gh411U7JD?spm_id_from=333.999.0.0)
+## 1. Introduction
 
-[好客租房 - 移动 Web 端（React 项目）](https://www.bilibili.com/video/BV1SK4y1U7f1?p=270&spm_id_from=333.880.my_history.page.click)。
+The "Rent House (Web Mobile Web)" project is a mobile web application based on React. 
 
-本项目对视频中演示的代码，基于最新的 `react 17`、`react-router v6`、`antd-mobile v5` 等框架和组件，采用 React Hook 进行重新编写，并对其中部分功能进行优化和 bug 的修正（因部分组件还未支持 `react 18`，故暂未支持）。
+It is designed with modular, component-based, and engineering principles to provide functionality similar to apps like Beike.
 
-相关后端代码可在上面教程评论区寻找。
+The project addresses the user's need to find housing resources.
 
-部分样式代码参考了[@jerry306](https://gitee.com/jerry306)的代码。
 
-## 技术栈
 
-`react`  
-`react-router`  
-`react-spring`  
-`react-virtualized`  
-`create-react-app`  
-`antd-mobile`  
-`axios`  
-`formik+Yup`  
-`lodash`  
-`prop-types`  
-`百度地图API`  
-`LESS`
+## 2. Technology Stack
 
-## 截图
+`react 17`                                  :    JSX + hook
 
-![首页](capture/1.png)
-![找房](capture/2.png)
-![咨询](capture/3.png)
-![我的](capture/4.png)
-![城市列表](capture/5.png)
-![地图找房](capture/6.png)
-![地图房源列表](capture/7.png)
-![房源详情1](capture/8.png)
-![房源详情2](capture/9.png)
-![无收藏](capture/10.png)
-![有收藏](capture/11.png)
-![无出租](capture/12.png)
-![搜索小区](capture/13.png)
-![添加出租](capture/14.png)
-![有出租](capture/15.png)
-![添加房源详情1](capture/16.png)
-![添加房源详情2](capture/17.png)
+`react-router v6`                   :   Router
 
-## 其他
+ `antd-mobile v5`                    :   UI components
 
-本项目仅用于 `react` 的开发学习，素材和部分原有代码所有权归教程发布者，许可证遵循教程发布者意愿。
+`react-virtualized`               :   Long List
 
-本人也是初学前端，代码如有问题，可直接提交 issue 或者发邮件至[Phil.Pu@foxmail.com](Phil.Pu@foxmail.com)。
+`create-react-app`                 :  Scaffold
+
+`axios`  									  :  Call APIs
+
+`formik+Yup`   						  :  Login & Register Form 
+
+`Baidu Map API` 					 :  Map & Location
+
+
+
+## 3. Functionals
+
+The main functional modules of the "Rent House Web App" platform are as follows:
+
+1. **Search for Housing:**
+   - Utilize Baidu Maps to search for available housing.
+   - Filter housing options based on criteria like current city, transportation, rent, housing facilities, etc.
+2. **City Switching:**
+   - Incorporate a city selection module for users to switch between cities.
+   - Implement a feature for auto-locating the user's current city.
+   - Offer different housing options in various cities.
+3. **Login Module:**
+   - Provide functionality for user registration and login.
+   - Allow users to view and modify their personal information.
+   - After logging in, users can save housing listings in their favorites and view details in the "My" section.
+4. **Housing Details:**
+   - Display comprehensive information about each housing listing, including rent, size, amenities, location, property description, features, and contact information.
+   - Enable users to add listings to their favorites (requires login) and make phone appointments.
+5. **Housing Listing Submission:**
+   - Implement a feature for users to publish housing listings.
+   - Users can upload relevant information about their properties.
+   - Provide a page for users to view their published listings (requires login).
+6. **History Records:**
+   - Offer a module that allows users to view their browsing history.
+
+
+
+## 4. Screenshots Page
+
+####  4.1 Home Page
+
+<img src="public/screenshots/1.png" alt="首页" style="zoom:50%;" />
+
+
+
+#### 4.2 Search Page
+
+<img src="public/screenshots/2.png" alt="找房" style="zoom:50%;" />
+
+#### 4.3 News Page
+
+<img src="public/screenshots/3.png" alt="咨询" style="zoom:50%;" />
+
+#### 4.4 Profile Page
+
+<img src="public/screenshots/4.png" alt="我的" style="zoom:50%;" />
+
+#### 4.5 City List Page
+
+<img src="public/screenshots/5.png" alt="城市列表" style="zoom:50%;" />
+
+
+
+#### 4.6 Map Search Page 
+
+<img src="public/screenshots/6.png" alt="地图找房" style="zoom:50%;" />
+
+#### 4.7 Map Details Page 
+
+<img src="public/screenshots/7.png" alt="地图房源列表" style="zoom:50%;" />
+
+#### 4.8 Room Descript Page
+
+<img src="public/screenshots/8.png" alt="房源详情1" style="zoom:50%;" />
+
+#### 4.9 Room Details Page
+
+<img src="public/screenshots/9.png" alt="房源详情2" style="zoom:50%;" />
+
+#### 4.10 My Favorites None Page 
+
+<img src="public/screenshots/10.png" alt="无收藏" style="zoom:50%;" />
+
+#### 4.11 My Favorites  Page 
+
+<img src="public/screenshots/11.png" alt="有收藏" style="zoom:50%;" />
+
+#### 4.12 My Rent Page
+
+<img src="public/screenshots/12.png" alt="无出租" style="zoom:50%;" />
+
+#### 4.13 Post House Page
+
+<img src="public/screenshots/14.png" alt="添加出租" style="zoom:50%;" />
+
+#### 4.14 Post House Detail Page
+
+<img src="public/screenshots/16.png" alt="添加房源详情1" style="zoom:50%;" />
+
+
+
+## 5. How to run
+
+#### 5.1 Firstly,  run the server 
+
+Follow the instructions of the  backend server's README.md 
+
+```
+server/server_backend/README.md
+```
+
+#### 5.2 Then start the application
+
+```shell
+cd /
+yarn install  #install the denpendencies
+yarn start    # start the app 
+```
+
+
+
+## 6. Others 
+
+If you have any specific questions or need help with anything related to React development or this project, feel free to ask, my email is stoneyezhenxu@gmail.com
