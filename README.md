@@ -63,63 +63,63 @@ The main functional modules of the "Rent House Web App" platform are as follows:
 
 ####  4.1 Home Page
 
-<img src="public/screenshots/1.png" alt="首页" style="zoom:50%;" />
+<img src="public/screenshots/1.png" alt="首页" width="200px" />
 
 
 
 #### 4.2 Search Page
 
-<img src="public/screenshots/2.png" alt="找房" style="zoom:50%;" />
+<img src="public/screenshots/2.png" alt="找房" width="200px" />
 
 #### 4.3 News Page
 
-<img src="public/screenshots/3.png" alt="咨询" style="zoom:50%;" />
+<img src="public/screenshots/3.png" alt="咨询" width="200px" />
 
 #### 4.4 Profile Page
 
-<img src="public/screenshots/4.png" alt="我的" style="zoom:50%;" />
+<img src="public/screenshots/4.png" alt="我的" width="200px" />
 
 #### 4.5 City List Page
 
-<img src="public/screenshots/5.png" alt="城市列表" style="zoom:50%;" />
+<img src="public/screenshots/5.png" alt="城市列表" width="200px" />
 
 
 
 #### 4.6 Map Search Page 
 
-<img src="public/screenshots/6.png" alt="地图找房" style="zoom:50%;" />
+<img src="public/screenshots/6.png" alt="地图找房" width="200px" />
 
 #### 4.7 Map Details Page 
 
-<img src="public/screenshots/7.png" alt="地图房源列表" style="zoom:50%;" />
+<img src="public/screenshots/7.png" alt="地图房源列表" width="200px" />
 
 #### 4.8 Room Descript Page
 
-<img src="public/screenshots/8.png" alt="房源详情1" style="zoom:50%;" />
+<img src="public/screenshots/8.png" alt="房源详情1" width="200px" />
 
 #### 4.9 Room Details Page
 
-<img src="public/screenshots/9.png" alt="房源详情2" style="zoom:50%;" />
+<img src="public/screenshots/9.png" alt="房源详情2" width="200px" />
 
 #### 4.10 My Favorites None Page 
 
-<img src="public/screenshots/10.png" alt="无收藏" style="zoom:50%;" />
+<img src="public/screenshots/10.png" alt="无收藏" width="200px" />
 
 #### 4.11 My Favorites  Page 
 
-<img src="public/screenshots/11.png" alt="有收藏" style="zoom:50%;" />
+<img src="public/screenshots/11.png" alt="有收藏" width="200px" />
 
 #### 4.12 My Rent Page
 
-<img src="public/screenshots/12.png" alt="无出租" style="zoom:50%;" />
+<img src="public/screenshots/12.png" alt="无出租" width="200px" />
 
 #### 4.13 Post House Page
 
-<img src="public/screenshots/14.png" alt="添加出租" style="zoom:50%;" />
+<img src="public/screenshots/14.png" alt="添加出租" width="200px" />
 
 #### 4.14 Post House Detail Page
 
-<img src="public/screenshots/16.png" alt="添加房源详情1" style="zoom:50%;" />
+<img src="public/screenshots/16.png" alt="添加房源详情1" width="200px" />
 
 
 
