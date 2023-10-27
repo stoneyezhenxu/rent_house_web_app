@@ -1,2 +1,0 @@
-server/server_backend/data/houses.json filter=lfs diff=lfs merge=lfs -text
-server/server_backend/db/hkzf_db.sql filter=lfs diff=lfs merge=lfs -text
